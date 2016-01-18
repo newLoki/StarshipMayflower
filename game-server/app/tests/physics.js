@@ -20,7 +20,7 @@ function testRotationInShipFOR(failIsFatal) {
     }
 
     var physics = require('../src/physics'),
-        Ship = require('../src/models/Ship'),
+        Ship = require('../../../shared/model/Ship'),
         sylvester = require('sylvester'),
         util = require('util');
 
